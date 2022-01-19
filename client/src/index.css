@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
+/* custom css */
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* custom tailwind classes */
+
+@layer components {
+    .log {
+        @apply text-white ;
+    }
+
+    .error {
+        @apply text-error ;
+    }
+
+    .warn {
+        @apply text-warning;
+    }
+
+    .selected {
+        @apply bg-code-background hover:bg-secondary text-accent-light border border-black border-b-0 hover:text-white font-bold mt-3  py-2 px-[9%] rounded rounded-b-none rounded-br-none;
+    }
+    
+    .deslected {
+        @apply bg-accent-light hover:bg-secondary border border-black border-b-0 hover:text-white font-bold mt-3  py-2 px-[9%] rounded rounded-b-none rounded-br-none;
+    }
+
+    li {
+        @apply mt-10 list-decimal;
+    }
+}
