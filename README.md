@@ -22,10 +22,18 @@ Code Playground is a online application for testing and showcasing user-created 
 - **ExpressJS** - It is a back end web application framework for Node.js
 - **Socket.io** - Socket.IO is a JavaScript library for realtime web applications. It enables realtime, bi-directional communication between web clients and servers
 
+## How to Share some Code?
+- Open the application on a browser
+- Start a Playground by clicking the 'Start a Playground' Button.
+- Once the IDE is loaded, click the 'Start Sharing' button to Start a custom room.
+- An RoomID will be displayed, as well as the number of room members on the top-right corner
+- Share that RoomID to other people, which they can use to join your Room By choosing 'Join a Playground' when they open the application.
+- Once someone enters in your room, you will get a popup, describing the same.
+- Now you can share your code with them in real-time using the Html, CSS and JavaScript windows respectively.
 
-## Available Scripts
-
-In the project directory, you can run:
+## How to run the code?
+Clone the project in your Local Machine.
+Then in the project directory, you can run:
 
 ### To run the client
 In the /client folder directory, run the following command
