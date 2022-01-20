@@ -4,11 +4,12 @@
 Code Playground is a online application for testing and showcasing user-created and collaborational HTML, CSS and JavaScript code snippets.
 
 ## Features
-- It allows the user to share their code in real-time with their friends.
-- The user can create custom rooms, and share its room-id to invite new members to the room
-- The application contains a built-in console feed, which shows the javaScript output on the fly
-- The user can also keep track of the number of users in the room using the handy icon on the top-right corner of the screen
-- The user is also able to stop or start the sharing whenever they wish to
+- It allows the user to share their Html, CSS and JavaScript code in **real-time** with multiple people.
+- The user can **create** custom rooms, and share its **room-id** to invite new members to the room.
+- The application contains a built-in **console feed**, which shows the javaScript output on the fly.
+- The user can also use the **smart code suggestion** tool while writing in the JavaScript and CSS coding window, using `Ctrl + Space` .
+- The user can also keep track of the **number of users** in the room using the handy icon on the top-right corner of the screen.
+- The user is also able to stop or start the sharing of the code, whenever they wish to.
 
 ### Lighthouse Report
 ![Foo](https://i.ibb.co/6B4ykJv/lighthouse.jpg)
