@@ -1,4 +1,4 @@
-# code-playground
+# Code Playground
 
 ## About
 Code Playground is a online application for testing and showcasing user-created and collaborational HTML, CSS and JavaScript code snippets.
